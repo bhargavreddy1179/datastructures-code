@@ -1,39 +1,63 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/bhargavreddy1179/pages-11/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Welcome to Data Structures
 
 ```markdown
-Syntax highlighted code block
+A data structure is a way of organizing data so that it can be used effectively
 
-# Header 1
-## Header 2
-### Header 3
+- Make fast and powerful algorithms
+- Manage and organize data
+- Make code cleaner and easier to understand
 
-- Bulleted
-- List
-
-# DSA code will come up
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Classification
+├── Primitive data structure
+├── Non-primitive data structure
+│ ├── Linear data structures
+│ │ ├── Static
+│ | │ └── Array
+│ │ ├── Dynamic
+| │ │ ├── Linked List
+| │ │ ├── Static
+│ | └─└── Queue
+│ ├── Non-Linear data structures
+│ │ ├── Tree
+└─└─└── Graph
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Topics Covered
 
-### Jekyll Themes
+###
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bhargavreddy1179/pages-11/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- [Array](/topics/array)
+- [Pointer](/topics/pointer)
+- [Linked List](/topics/linked-list)
+- [Stack](/topics/stack)
+- [Queue](/topics/queue)
+- [Tree](/topics/tree)
+- [Graph](/topics/graph)
 
-### Support or Contact
+<br/>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Abstract Data Type (ADT)
+
+An ADT is an abstraction of a data structure which provides only the interface to which a data striucture must adhere to.
+
+The interface does not give any specific details about how something should be implemented or in what programming language
+
+| Abstraction (ADT) |                      Implementation (DS)                      |
+| :---------------: | :-----------------------------------------------------------: |
+|       List        |                  Dynamic Array, Linked List                   |
+|       Queue       | Linked list based Queue, Array based Queue, Stack based Queue |
+|        Map        |                  Tree Map, Hash Map / Table                   |
+
+<br/>
+
+### _Reference Links_
+
+- [Link1](https://www.javatpoint.com/data-structure-introduction)
+- [Link2](https://beginnersbook.com/2018/10/data-structure-introduction/)
+- [Video Reference](https://www.youtube.com/watch?v=RBSGKlAvoiM)
+
+<br/>
+
+### **Support or Contact**
+
+Having trouble with Pages? [Please contact us](https://support.github.com/contact)
